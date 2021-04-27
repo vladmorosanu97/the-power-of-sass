@@ -1,0 +1,292 @@
+<html>
+
+<head>
+  <title>Spotify after 1 month in Vaslui</title>
+  <link rel="shortcut icon" type="image/png" href="https://www.shareicon.net/data/2048x2048/2016/07/14/607275_black_2048x2048.png"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="./javascripts/interactions.js"></script>
+</head>
+
+<body>
+  <aside class="slide-bar">
+
+    <div class="page-logo">
+      <img class="logo-image" src="./images/logo.png">
+    </div>
+
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="link">
+          <i class="material-icons icon">search</i>
+          <a class="text">Search</a>
+        </li>
+        <li class="link">
+          <i class="material-icons icon">home</i>
+          <a class="text">Home</a>
+        </li>
+        <li class="link">
+          <i class="material-icons icon">library_music</i>
+          <a class="text">Your library</a>
+        </li>
+      </ul>
+    </nav>
+      
+    <section class="recently-played">
+      <div class="recently-played-text">Recently played</div>
+      <div class="object-played">
+        <p class="title">Chopin: Hubert Rutterd By default, Chrome offers to translate pages written in a l</p>
+        <p class="type">Album</p>
+      </div>
+      <div class="object-played">
+          <p class="title">Antonia</p>
+          <p class="type">Artist</p>
+        </div>
+    </section>
+
+    <div class="download-section">
+      <i class="material-icons">cloud_download</i>
+      <a class="text-download">Install app</a>
+    </div>
+    <br class="break" />
+    <section class="user-info">
+      <img class="user-photo" src="./images/account.jpg">
+      <div class="user-name">Vlad Morosanu</div>
+    </section>
+  </aside>
+  <main class="page-content">
+    <article class="album-info">
+      <img class="album-image" src="https://i.scdn.co/image/42a1a6cc32b9c62b9c83b448ace5fffadde5cf34" onmouseover="getPlayButton(true);" onmouseout="getPlayButton(false);">
+      <i id="play-song" class="material-icons border-radius relative big" style="display: none" onmouseover="getPlayButton(true);">play_arrow</i>
+      <h1 class="album-title">Chopin: Hubert Rutkowski on Pleyel</h1>
+      <div class="album-authors">
+        <a class="article-text" href="#">Frédéric Chopin</a>
+        <a class="article-text" href="#">Hubert Rutkowski</a>
+      </div>
+      <div class="article-text">2018 • 12 songs</div>
+      <button class="button">Play</button>
+      <div class="other-info">
+        <div class="article-text">save</div>
+        <i class="material-icons">more_horiz</i>
+      </div>
+    </article>
+    <section class="album-songs">
+     <ul class="songs-list">
+      <li id="1" class="song selected" onclick="toogleSelected('1')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="2" class="song" onclick="toogleSelected('2')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="3" class="song" onclick="toogleSelected('3')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="4" class="song" onclick="toogleSelected('4')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="5" class="song" onclick="toogleSelected('5')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="6" class="song" onclick="toogleSelected('6')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="7" class="song" onclick="toogleSelected('7')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="8" class="song" onclick="toogleSelected('8')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="9" class="song" onclick="toogleSelected('9')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="10" class="song" onclick="toogleSelected('10')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="11" class="song" onclick="toogleSelected('11')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="12" class="song" onclick="toogleSelected('12')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="13" class="song" onclick="toogleSelected('13')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="14" class="song" onclick="toogleSelected('14')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="15" class="song" onclick="toogleSelected('15')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="16" class="song" onclick="toogleSelected('16')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="17" class="song" onclick="toogleSelected('17')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Ballade No. 1 in G Minor, Op 23</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>
+      <li id="18" class="song" onclick="toogleSelected('18')">
+        <div class="group-two">
+          <i class="material-icons">music_note</i>
+          <h3 class="song-name white">Mazuka No. 2 in G Minor, Op 24</h3>
+        </div>
+        <div class="group-two">
+          <i class="material-icons white">more_horiz</i>
+          <h3 class="song-length">9:32</h3>
+        </div>
+      </li>      
+     </ul>
+    </section>
+  </main>
+  
+  <footer class="footer-menu">
+    <section class="info-playing">
+      <img class="album-image-footer" src="https://i.scdn.co/image/42a1a6cc32b9c62b9c83b448ace5fffadde5cf34">
+      <section class="info-song">
+        <a class="name-song" href="#">Balade No. 1 in G Minor, Op. 23</a>
+        <a class="name-author" href="#">Federic Chopin</a>
+      </section>
+      <i class="material-icons icon">add</i>
+    </section>
+    <section class="user-buttons">
+      <div class="controls-song">
+        <i class="material-icons">shuffle</i>
+        <i class="material-icons">skip_previous</i>
+        <i class="material-icons border-radius">play_arrow</i>
+        <i class="material-icons">skip_next</i>
+        <i class="material-icons">repeat</i>
+      </div>
+      <div class="stage-playing-song">
+        <div class="start-minutes-song">0:00</div>
+        <div class="line-progress"></div>
+        <div class="final-minutes-song">8:00</div>
+      </div>
+    </section>
+    <section class="extra-controls">
+      <i class="material-icons">playlist_play</i>
+      <i class="material-icons">subtitles</i>
+      <i class="material-icons">slow_motion_video</i>
+      <i class="material-icons">volume_up</i>
+      <div class="line-progress short"></div>
+    </section>
+  </footer>
+</body>
+
+</html>

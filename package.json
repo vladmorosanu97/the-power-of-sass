@@ -1,0 +1,26 @@
+{
+  "name": "thepowerofsass",
+  "version": "1.0.0",
+  "description": "html5 sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmorosanu97/The-Power-of-SASS.git"
+  },
+  "keywords": [
+    "sass",
+    "html5"
+  ],
+  "author": "Vlad Morosanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladmorosanu97/The-Power-of-SASS/issues"
+  },
+  "homepage": "https://github.com/vladmorosanu97/The-Power-of-SASS#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
