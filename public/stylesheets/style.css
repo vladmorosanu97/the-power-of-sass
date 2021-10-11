@@ -90,7 +90,7 @@ body {
 .footer-menu {
   background-color: #282828;
   position: fixed;
-  top: 87%;
+  top: calc(100% - 96px);
   width: 100%;
   height: 6rem;
   display: flex;
@@ -177,7 +177,6 @@ body {
 .page-content {
   margin-left: 17%;
   color: #9c9c9d;
-  padding-top: 1rem;
   display: flex; }
 
 .button {
@@ -234,7 +233,8 @@ body {
       cursor: pointer; }
 
 .album-songs {
-  width: 63%; }
+  width: 63%;
+  padding-top: 1rem; }
 
 .relative {
   position: absolute;
@@ -246,9 +246,6 @@ body {
 
 .white {
   color: #ffffff; }
-
-.album-songs {
-  padding-top: 1rem; }
 
 .songs-list {
   display: flex;
